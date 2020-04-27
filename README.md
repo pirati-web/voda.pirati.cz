@@ -1,0 +1,1 @@
+# budoucnostresimeted.cz
