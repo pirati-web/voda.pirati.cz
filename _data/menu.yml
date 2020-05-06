@@ -1,0 +1,47 @@
+top:
+  - link: "pirati.cz"
+    url:  "https://www.pirati.cz"
+    icon: "fa fa-home"
+  - link: "Pirátské listy"
+    url:  "http://www.piratskelisty.cz"
+    icon: "fa fa-newspaper-o"
+
+main:
+  - name: Do prázdnin
+    link: "#section-1"
+  - name: Do konce roku
+    link: "#section-2"
+  - name: Budoucnost
+    link: "#section-3"
+  - name: Závěr
+    link: "#conclusion"
+  - name: Použité zdroje
+    link: "#source"
+  - name: Stahnout plán
+    link: "/plan.pdf"
+hideSearch: yes
+
+bottom:
+  - class: small-12 medium-4
+    title: Připoj se
+    links:
+      - link: /kontakt/
+        name: Dej nám vědět
+  - class: small-12 medium-4
+    title: Makáme
+    links:
+      - link: /lide/
+        name: Lidé
+      - link: /komunalni-volby/
+        name: Volby
+      - link: /aktuality/
+        name: Aktuality
+  - class: small-12 medium-4
+    title: Otevřenost
+    links:
+      - link: https://ucet.pirati.cz
+        name: Transparentní účet
+      - link: https://smlouvy.pirati.cz
+        name: Registr smluv
+      - link: https://wiki.pirati.cz/fo/otevrene_ucetnictvi
+        name: Otevřené účetnictví
