@@ -17,7 +17,7 @@ main:
     link: "#conclusion"
   - name: Použité zdroje
     link: "#source"
-  - name: Stahnout plán
+  - name: Stáhnout plán
     link: "/plan.pdf"
 hideSearch: yes
 
