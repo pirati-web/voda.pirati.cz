@@ -71,3 +71,9 @@ body {
 .c-top-bar {
   margin-bottom: 20px;
 }
+
+#spread-chart-container {
+    max-width: 1100px;
+    height: 420px;
+    margin-bottom: 10px;
+}

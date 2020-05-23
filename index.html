@@ -2,7 +2,7 @@
 layout: blank
 ---
 <!DOCTYPE html>
-<html lang="cs" dir="ltr" itemtype="http://schema.org/WebPage" itemscope="">
+<html lang="cs" dir="ltr" itemtype="http://schema.org/WebPage" itemscope="" xmlns="http://www.w3.org/1999/html">
 
 <head>
   <meta charset="utf-8">
@@ -47,9 +47,7 @@ layout: blank
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-          integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-          crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
           integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
           crossorigin="anonymous"></script>
@@ -57,6 +55,8 @@ layout: blank
           integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
           crossorigin="anonymous"></script>
   <script src="js/jquery.bootstrap-dropdown-hover.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  <script src="js/jquery.csv.min.js"></script>
 
   <link href="css/custom.css" rel="stylesheet">
 
@@ -116,7 +116,9 @@ layout: blank
       je
       možné plošná opatření omezit a více se soustředit na chytrá řešení.</p>
     <h3>Nákaza koronavirem v Česku</h3>
-    <img src="assets/img/grafs/1.png">
+    <div id="spread-chart-container">
+      <canvas id="spread-chart"></canvas>
+    </div>
     <p><span class="font-weight-bold">Graf č. 1:</span> Počet detekovaných případů denně v České republice – sedmidenní
       pohyblivý průměr. Graf ukazuje, kdy byla zavedena plošná celostátní opatření a kdy se projevila. Detekovaná data
       mají cca 11 dní zpoždění proti skutečnému počtu nakažených (např. kvůli inkubační době
@@ -889,4 +891,5 @@ layout: blank
 <script>
   $.fn.bootstrapDropdownHover();
 </script>
+<script src="js/chart.js"></script>
 </html>
