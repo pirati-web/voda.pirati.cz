@@ -73,7 +73,18 @@ body {
 }
 
 #spread-chart-container {
-    max-width: 1100px;
+    max-width: 100%;
     height: 420px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+    #spread-chart-container {
+        height: 300px;
+    }
+}
+@media (max-width: 400px) {
+    #spread-chart-container {
+        height: 200px;
+    }
 }
