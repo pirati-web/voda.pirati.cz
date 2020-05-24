@@ -6,9 +6,9 @@ $( document ).ready(function () {
         let newCases = [];
         let weekAverage = [];
         for (let i = 1; i < data.length-1; i++) {
-            dates.push(data[i][0]);
-            newCases.push(data[i][1]);
-            weekAverage.push(data[i][2]);
+            dates.unshift(data[i][0]);
+            newCases.unshift(data[i][1]);
+            weekAverage.unshift(data[i][2]);
         }
         let ctx = document.getElementById('spread-chart').getContext('2d');
         new Chart(ctx, {
@@ -27,7 +27,7 @@ $( document ).ready(function () {
                     borderWidth: 4,
                     pointRadius: 0
                 }],
-                labels: dates.reverse()
+                labels: dates
             },
             options: {
                 responsive: true,
