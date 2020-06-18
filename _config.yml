@@ -5,20 +5,19 @@
 # technické nastavení
 #
 
-title: Koronavirový plán # To co je napsané na tabu ve kterém je stránka.
+title: Plán Pirátů Vodu řešíme teď # To co je napsané na tabu ve kterém je stránka.
 email: info@pirati.cz
 description: >-
-  Plán Pirátů ke koronaviru
-keywords: piráti, česká pirátská strana, koronavirus, COVID-19
+  Plán Pirátů Vodu řešíme teď
+keywords: piráti, česká pirátská strana, Vodu řešíme teď, sucho, povodně, vodohospodářství
 
-#mediaStorage: bydleni #obrazky a pdf jsou na https://a.pirati.cz/jihomoravsky/
 
 administrator:
-  email: jitka.novotna@pirati.cz, freitas.zuzana@gmail.com # mail(y), kam pujdou chybove vystupy; vice e-mailu oddelujte carkou
+  email: marek.krejpsky@gmail.com # mail(y), kam pujdou chybove vystupy; vice e-mailu oddelujte carkou
 
 organization:
-  name: Rozcestník Pirátů ke koronaviru
-  shortName: Koronavirus
+  name: Plán Pirátů Vodu řešíme teď
+  shortName: voduresimeted
   email: info@pirati.cz
   address: |
     Na Moráni 3,
@@ -73,7 +72,7 @@ forum:
   page: https://forum.pirati.cz/
 
 github:
-  url: https://github.com/pirati-web/koronavirus.pirati.cz/
+  url: https://github.com/pirati-web/voda.pirati.cz/
   branch: master
 
 #
