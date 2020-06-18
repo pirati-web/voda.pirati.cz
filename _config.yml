@@ -114,9 +114,6 @@ collections:
     output: true
     permalink: /lide/:path/
 
-  program:
-    output: true
-    permalink: /komunalni-volby/program/:path/
 
   # Sole purpose is to create candidate lists in separate files.
   candidatelists:
@@ -137,14 +134,7 @@ defaults:   # defaults values for collection scope
         - foto
         - personContact
         - people
-  -
-    scope:
-      path: "_program"
-    values:
-      layout: "program-post"
-      rbar:
-         - garant
-         - program
+
 
 emptyArray: []
 
