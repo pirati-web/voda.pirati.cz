@@ -15,8 +15,6 @@ main:
     link: "#section-3"
   - name: ZÁVĚR
     link: "#conclusion"
-  - name: STÁHNOUT PLÁN
-    link: "plan.pdf"
 hideSearch: yes
 
 bottom:
