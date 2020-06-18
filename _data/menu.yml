@@ -16,7 +16,7 @@ main:
   - name: ZÁVĚR
     link: "#conclusion"
   - name: STÁHNOUT PLÁN
-    link: "assets/E-book_Mokro.pdf"
+    link: "plan.pdf"
 hideSearch: yes
 
 bottom:
@@ -30,8 +30,6 @@ bottom:
     links:
       - link: /lide/
         name: Lidé
-      - link: /komunalni-volby/
-        name: Volby
       - link: /aktuality/
         name: Aktuality
   - class: small-12 medium-4
