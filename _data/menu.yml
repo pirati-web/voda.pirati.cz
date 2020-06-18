@@ -7,18 +7,16 @@ top:
     icon: "fa fa-newspaper-o"
 
 main:
-  - name: Do prázdnin
+  - name: CO ŘEŠIT HNED
     link: "#section-1"
-  - name: Do konce roku
+  - name: CO DO KONCE ROKU
     link: "#section-2"
-  - name: Budoucnost
+  - name: CO ŘEŠIT DLOUHODOBĚ
     link: "#section-3"
-  - name: Závěr
+  - name: ZÁVĚR
     link: "#conclusion"
-  - name: Použité zdroje
-    link: "#source"
-  - name: Stáhnout plán
-    link: "/plan.pdf"
+  - name: STÁHNOUT PLÁN
+    link: "assets/E-book_Mokro.pdf"
 hideSearch: yes
 
 bottom:
